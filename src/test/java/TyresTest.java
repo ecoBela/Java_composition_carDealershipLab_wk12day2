@@ -21,5 +21,12 @@ public class TyresTest {
         assertEquals("summer", tyres.getTyreType());
     }
 
+    @Test
+    public void canChangeTyres(){
+        tyres.setTyreType("winter");
+        assertEquals("winter", tyres.getTyreType());
+
+    }
+
 
 }

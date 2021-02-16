@@ -16,4 +16,9 @@ public class Tyres {
     public String getTyreType() {
         return tyreType;
     }
+
+    public void setTyreType(String tyreType) {
+        this.tyreType = tyreType;
+    }
+
 }
